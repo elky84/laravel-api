@@ -1,0 +1,29 @@
+### LIST
+
+GET http://127.0.0.1:8000/api/books?page=3
+
+### GET
+
+GET http://127.0.0.1:8000/api/books/2
+
+### POST Book
+
+POST http://127.0.0.1:8000/api/books
+Content-Type: application/json
+
+{
+    "name": "하하",
+    "url": "ㅋㅋㅋ"
+}
+
+### PATCH Book
+PATCH http://127.0.0.1:8000/api/books/2
+Content-Type: application/json
+
+{
+    "name": "하하",
+    "url": "ㅋㅋㅋ"
+}
+
+### DELETE Book
+DELETE http://127.0.0.1:8000/api/books/2
